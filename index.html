@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+
+    <!-- ===== Boxicons CDN Link ===== -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- ===== Google Fonts ===== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- =============== Header ============= -->
+    <header id="header">
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="./Images/logo1.png" alt="logo" class="img-fluid logo_photo">
+            </a>
+            <ul class="menu">
+                <li class="menu_item">
+                    <a href="#hero" class="menu_link active-link">Accueil</a>
+                </li>
+                <li class="menu_item">
+                    <a href="#about" class="menu_link">à propos de moi</a>
+                </li>
+                <li class="menu_item">
+                    <a href="#resume" class="menu_link">CV</a>
+                </li>
+                <li class="menu_item">
+                    <a href="#portfolio" class="menu_link">Portfolio</a>
+                </li>
+                <!--<li class="menu_item">
+                    <a href="#services" class="menu_link">Services</a>
+                </li>-->
+                <li class="menu_item">
+                    <a href="#contact" class="menu_link">Contact</a>
+                </li>
+                <ion-icon name="close-outline" class="close_icon"></ion-icon>
+            </ul>
+            <ion-icon name="reorder-three-outline" class="toggle_icon"></ion-icon>
+            </div>
+    </header>
+
+    
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero section">
+            <div class="hero_container container grid">
+                <div class="hero_content">
+                    <h4>Salut,</h4>
+                    <h1>Je suis
+                        <span class="typed" data-typed-items="un Developer, un Freelancer"></span>
+                    </h1>
+                    <p>Je suis un développeur basé à Marseille, et je suis très passionné par mon travail.
+                    </p>
+                    <div class="hero_social">
+                        <a href="https://www.linkedin.com/in/sary-shleweet-b2941790/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+                        <a href="https://www.instagram.com/sary_shleweet/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+                        <a href="https://github.com/SarySheleweet" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+                    </div>
+                    <a href="#resume" class="btn">
+                         Lire plus
+                        <ion-icon name="chevron-forward-outline"></ion-icon>
+                    </a>
+                </div>
+                <div class="hero_img">
+                    <img src="./Images/background photo1.png" alt="hero" class="img-fluid">
+            </div>
+            
+        </section>
+
+        <!-- About Section -->
+        <section class="about section" id="about">
+            <h2 class="section_title">à propos de moi</h2>
+        </section>
+
+        <div class="about_container container grid">
+            <div class="about_img">
+                <img src="./Images/hero_working.jpg" alt="person working a desk" class="img-fluid">
+            </div>
+            <div class="about_content">
+                <h1> Je fais des sites web dynamiques et responsive.</h1>
+                <p> Je crée des sites web qui répondent aux besoins de mes clients. Je présente plusieurs choix à fin de trouver le style qui leur plait.
+                    Je continue avec le support pour tout type de changement ou mise à jour du site et je présente un system de base de données qui est facile à gérer.
+                </p>
+            <div class="about_info">
+                <div>
+                    <span class="number">10</span>
+                    <br>
+                    <span class="text">Projets <br> rendus</span>
+                </div>
+                <div>
+                    <span class="number">4</span>
+                    <br>
+                    <span class="text">Retour <br> Positifs</span>
+                </div>
+            </div>
+        </div>
+     </div>
+
+        <!-- Resume Section -->
+        <section class="resume section" id="resume">
+            <h2 class="section_title">Resume</h2>
+
+            <div class="resume_container container grid">
+                <div class="resume_tabs">
+                    <ul>
+                        <li>
+                            <a href="#page-1" class="current">EDUCATION</a>
+                        </li>
+                        <li>
+                            <a href="#page-2" class="current">EXPÉRIENCES</a>
+                        </li>
+                        <li>
+                            <a href="#page-3" class="current">SKILLS</a>
+                        </li>
+                       <!--
+                        <li>
+                            <a href="#page-4" class="current">Awards</a>
+                        </li>
+                        -->
+                    </ul>
+                </div>
+                <div class="resume_content">
+                    <div id="page-1" class="page one">
+                        <div class="page_heading">
+                            Education
+                        </div>
+                        <div class="resume_wrap">
+                        <div class="resume_wrap_icon">
+                            <ion-icon name="school-outline"></ion-icon>
+                        </div>
+                        <div class="resume_wrap_content">
+                            <span class="date">2005 - 2010</span>
+                            <h4>BA en Littérature Anglaise</h4>
+                            <span class="position">Damascus University</span>
+                            <p> 4 ans d'études linguistiques et littéraires en langue anglaise. Développement de compétences de traduction et linguistiques.
+                                Connaissances approfondises en littérature anglaise et américaine, en theater, poésie et novelles. 
+                            </p>
+                        </div>
+                        </div>
+                        <div class="resume_wrap">
+                            <div class="resume_wrap_icon">
+                                <ion-icon name="school-outline"></ion-icon>
+                            </div>
+                            <div class="resume_wrap_content">
+                                <span class="date">2023 - 2024</span>
+                                <h4>DÉVELOPPEUR WEB ET WEB MOBILE</h4>
+                                <span class="position">Simplon, Marseille</span>
+                                <p>Développer la partie front-end d'une application web ou web mobile sécurisée:
+                                <ul>
+                                    <li>Maquetter des interfaces utilisateur web ou web mobile.
+                                    </li>
+                                    <li>Réaliser des interfaces utilisateur statiques web ou web mobile.</li>
+                                    <li>Développer la partie dynamique des interfaces utilisateur web ou web mobile.</li>
+                                </ul>
+                                </p>
+                                <p>Développer la partie back-end d'une application web ou web mobile sécurisée:
+                                <ul>
+                                    <li>Mettre en place une base de données relationnelle.
+                                    </li>
+                                    <li>Développer des composants d'accès aux données SQL et NoSQL.</li>
+                                    <li>Développer des composants métier coté serveur.</li>
+                                    <li>Documenter le déploiement d'une application dynamique web ou web mobile.
+                                    </li>
+                                </ul>
+                                </p>
+
+                            </div>
+                            </div>
+                            <div class="resume_wrap">
+                                <div class="resume_wrap_icon">
+                                    <ion-icon name="school-outline"></ion-icon>
+                                </div>
+                                <div class="resume_wrap_content">
+                                    <span class="date">2023 - 2023</span>
+                                    <h4>APPLE FOUNDATION PROGRAM</h4>
+                                    <span class="position">Simplon, Marseille</span>
+                                    <ul>
+                                        <li>Conception de maquettes d'applications mobiles sur Figma.</li>
+                                        <li>Acquérir les bases du langage de programmation Swift.</li>
+                                        <li>Acquérir une connaissance de UX design d’Apple.</li>
+                                        <li>Réalisation d’un prototype d’une application iOS avec Swift.</li>
+                                        <li>Développer la collaboration en équipe et l'apprentissage en autonomie.</li>
+                                    </ul>
+                                </div>
+                                </div>
+                                <!--<div class="resume_wrap">
+                                    <div class="resume_wrap_icon">
+                                        <ion-icon name="school-outline"></ion-icon>
+                                    </div>
+                                    <div class="resume_wrap_content">
+                                        <span class="date">2005 - 2010</span>
+                                        <h4>Bachelor Degree in English Literature</h4>
+                                        <span class="position">Damascus University</span>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, laboriosam.
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque recusandae excepturi aspernatur itaque labore, 
+                                            iste ipsa modi ratione saepe assumenda reiciendis. Veniam consequatur quia voluptas pariatur 
+                                            commodi ullam rerum impedit nisi modi laborum? Dignissimos in iste, consectetur aspernatur sint magni sed recusandae illum consequatur unde, temporibus obcaecati cum accusamus porro.
+                                        </p>
+                                    </div>
+                                    </div>-->
+                    </div>
+                    <div class="resume_content">
+                        <div id="page-2" class="page two">
+                            <div class="page_heading">
+                                Experience
+                            </div>
+                            <div class="resume_wrap">
+                            <div class="resume_wrap_icon">
+                                <ion-icon name="briefcase-outline"></ion-icon>
+                            </div>
+                            <div class="resume_wrap_content">
+                                <span class="date">2010 - 2020</span>
+                                <h4>Traducteur</h4>
+                                <span class="position">Freelance</span>
+                                <ul>
+                                    <li>Traducteur de sites internet, films et études socio-politiques.</li>
+                                    <li>Traduecteur deChess.com site et application mobile.</li>
+                                    <li>Traducteur de site d'association des exilés, EKO, Marseille.</li>
+                                    <li>Traducteur de "The War Show", film documentaire de plusieurs prix internationaux.</li>
+                                </ul>
+                            </div>
+                            </div>
+                            <div class="resume_wrap">
+                                <div class="resume_wrap_icon">
+                                    <ion-icon name="briefcase-outline"></ion-icon>
+                                </div>
+                                <div class="resume_wrap_content">
+                                    <span class="date">2021 - 2021</span>
+                                    <h4>AGENT ADMINISTRATIF</h4>
+                                    <span class="position">Cabinet Mezouar, Marseille</span>
+                                    <ul>
+                                        <li>Préparation et classement de dossiers clients.</li>
+                                        <li>Rédaction de lettres de recours et demandes d'appel.</li>
+                                        <li>Préparation de tableaux excel et des calculs.</li>
+                                    </ul>
+                                </div>
+                                </div>
+                                <div class="resume_wrap">
+                                    <div class="resume_wrap_icon">
+                                        <ion-icon name="briefcase-outline"></ion-icon>
+                                    </div>
+                                    <div class="resume_wrap_content">
+                                        <span class="date">2008 - 2010</span>
+                                        <h4>GENERALISTE DE RESOURCES HUMAINES</h4>
+                                        <span class="position">MGG, Damas</span>
+                                        <ul>
+                                            <li>Gestion de salaires de 1200 employés.</li>
+                                            <li>Réalisation d'entretiens de recrutement.</li>
+                                            <li>Gestion d'archivage de dossiers employés.</li>
+                                            <li>Meiullere employé d'entreprise sur une période de 3 mois.</li>
+                                        </ul>
+                                    </div>
+                                    </div>
+                                    <!--<div class="resume_wrap">
+                                        <div class="resume_wrap_icon">
+                                            <ion-icon name="briefcase-outline"></ion-icon>
+                                        </div>
+                                        <div class="resume_wrap_content">
+                                            <span class="date">2010 - 2020</span>
+                                            <h4>Freelance Translator</h4>
+                                            <span class="position">Freelancer</span>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, laboriosam.
+                                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque recusandae excepturi aspernatur itaque labore, 
+                                                iste ipsa modi ratione saepe assumenda reiciendis. Veniam consequatur quia voluptas pariatur 
+                                                commodi ullam rerum impedit nisi modi laborum? Dignissimos in iste, consectetur aspernatur sint magni sed recusandae illum consequatur unde, temporibus obcaecati cum accusamus porro.
+                                            </p>
+                                        </div>
+                                        </div>-->
+                        </div>
+                    
+                        <div id="page-3" class="page three">
+                            <div class="page_heading">
+                                Skills
+                            </div>
+                            <div class="progressBoxes grid">
+                                <div class="progressBox">
+                                    <div class="progress_name">
+                                        <span>HTML</span>
+                                        <span>90%</span>
+                                    </div>
+                                    <div class="progress">
+                                    <div class="progress_bar" style="width: 90%;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="progressBoxes grid">
+                                <div class="progressBox">
+                                    <div class="progress_name">
+                                        <span>CSS</span>
+                                        <span>80%</span>
+                                    </div>
+                                    <div class="progress">
+                                    <div class="progress_bar" style="width: 80%;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="progressBoxes grid">
+                                <div class="progressBox">
+                                    <div class="progress_name">
+                                        <span>JavaScript</span>
+                                        <span>70%</span>
+                                    </div>
+                                    <div class="progress">
+                                    <div class="progress_bar" style="width: 70%;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="progressBoxes grid">
+                                <div class="progressBox">
+                                    <div class="progress_name">
+                                        <span>Python 3</span>
+                                        <span>70%</span>
+                                    </div>
+                                    <div class="progress">
+                                    <div class="progress_bar" style="width: 70%;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="progressBoxes grid">
+                                <div class="progressBox">
+                                    <div class="progress_name">
+                                        <span>Swift 4</span>
+                                        <span>85%</span>
+                                    </div>
+                                    <div class="progress">
+                                    <div class="progress_bar" style="width: 85%;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="progressBoxes grid">
+                                <div class="progressBox">
+                                    <div class="progress_name">
+                                        <span>SQL</span>
+                                        <span>80%</span>
+                                    </div>
+                                    <div class="progress">
+                                    <div class="progress_bar" style="width: 80%;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>             
+                    </div>
+                    <!--
+                    <div id="page-4" class="page four">
+                        <div class="page_heading">
+                            Awards
+                        </div>
+                        <div class="resume_wrap">
+                        <div class="resume_wrap_icon">
+                            <ion-icon name="briefcase-outline"></ion-icon>
+                        </div>
+                        <div class="resume_wrap_content">
+                            <span class="date">2010 - 2020</span>
+                            <h4>Freelance Translator</h4>
+                            <span class="position">Freelancer</span>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, laboriosam.
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque recusandae excepturi aspernatur itaque labore, 
+                                iste ipsa modi ratione saepe assumenda reiciendis. Veniam consequatur quia voluptas pariatur 
+                                commodi ullam rerum impedit nisi modi laborum? Dignissimos in iste, consectetur aspernatur sint magni sed recusandae illum consequatur unde, temporibus obcaecati cum accusamus porro.
+                            </p>
+                        </div>
+                        </div>
+                        <div class="resume_wrap">
+                            <div class="resume_wrap_icon">
+                                <ion-icon name="briefcase-outline"></ion-icon>
+                            </div>
+                            <div class="resume_wrap_content">
+                                <span class="date">2010 - 2020</span>
+                                <h4>Freelance Translator</h4>
+                                <span class="position">Freelancer</span>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, laboriosam.
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque recusandae excepturi aspernatur itaque labore, 
+                                    iste ipsa modi ratione saepe assumenda reiciendis. Veniam consequatur quia voluptas pariatur 
+                                    commodi ullam rerum impedit nisi modi laborum? Dignissimos in iste, consectetur aspernatur sint magni sed recusandae illum consequatur unde, temporibus obcaecati cum accusamus porro.
+                                </p>
+                            </div>
+                            </div>
+                            <div class="resume_wrap">
+                                <div class="resume_wrap_icon">
+                                    <ion-icon name="briefcase-outline"></ion-icon>
+                                </div>
+                                <div class="resume_wrap_content">
+                                    <span class="date">2010 - 2020</span>
+                                    <h4>Freelance Translator</h4>
+                                    <span class="position">Freelancer</span>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, laboriosam.
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque recusandae excepturi aspernatur itaque labore, 
+                                        iste ipsa modi ratione saepe assumenda reiciendis. Veniam consequatur quia voluptas pariatur 
+                                        commodi ullam rerum impedit nisi modi laborum? Dignissimos in iste, consectetur aspernatur sint magni sed recusandae illum consequatur unde, temporibus obcaecati cum accusamus porro.
+                                    </p>
+                                </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                -->
+            </div>
+        </section>
+        
+
+        <!-- Portfolio Section -->
+        <section class="portfolio section" id="portfolio">
+            <h2 class="section_title">Portfolio</h2>
+
+            <div class="portfolio_container container">
+                <ul class="portfolio_filters">
+                    <li data-filter="*" class="filter-active">All</li>
+                    <li data-filter=".filter-app">App</li>
+                    <li data-filter=".filter-card">Card</li>
+                    <li data-filter=".filter-web">Web</li>
+                </ul>
+                <div class="portfolio_wrap_container">
+                <div class="portfolio_item filter-web">
+                    <div class="portfolio_wrap">
+                        <img src="./Images/Drum_Kit_Photo.png" alt="" class="img-fluid">
+                        <div class="portfolio_info">
+                        <h4>Web</h4>
+                        <p>Web</p>
+                        <div class="portfolio_link">
+                            <!--<a href="#"><ion-icon name="add-outline"></ion-icon></a>-->
+                            <a href="https://sarysheleweet.github.io/Drum_Kit/" target="_blank"><ion-icon name="link-outline"></ion-icon></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <div class="portfolio_item filter-card">
+                    <div class="portfolio_wrap">
+                        <img src="./Images/Digital_Clock_Photo.png" alt="Drum Kit Project Photo" class="img-fluid">
+                        <div class="portfolio_info">
+                        <h4>App</h4>
+                        <p>App</p>
+                            <div class="portfolio_link">
+                            <!--<a href="#"><ion-icon name="add-outline"></ion-icon></a>-->
+                            <a href="https://sarysheleweet.github.io/Digital-Clock-1/" target="_blank"><ion-icon name="link-outline"></ion-icon></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio_item filter-app">
+                    <div class="portfolio_wrap">
+                        <img src="./Images/Multiplication_App_Photo.png" alt="Multiplication app project screenshot" class="img-fluid">
+                        <div class="portfolio_info">
+                        <h4>App</h4>
+                        <p>App</p>
+                            <div class="portfolio_link">
+                            <!--<a href="#"><ion-icon name="add-outline"></ion-icon></a>-->
+                            <a href="https://sarysheleweet.github.io/Multiplication-App/" target="_blank"><ion-icon name="link-outline"></ion-icon></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div data-category="web" class="portfolio_item filter-web">
+                    <div class="portfolio_wrap">
+                        <img src="./Images/Calculater.png" alt="calculator project screenshot" class="img-fluid">
+                        <div class="portfolio_info">
+                        <h4>Web 3</h4>
+                        <p>Web</p>
+                            <div class="portfolio_link">
+                            <a href="#"><ion-icon name="add-outline"></ion-icon></a>
+                            <a href="https://sarysheleweet.github.io/Basic_Calculator/" target="_blank"><ion-icon name="link-outline"></ion-icon></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio_item filter-card">
+                    <div class="portfolio_wrap">
+                        <img src="./Images/Chess_blog.png" alt="Chess Blog project screenshot " class="img-fluid">
+                        <div class="portfolio_info">
+                        <h4>Web 3</h4>
+                        <p>Web</p>
+                            <div class="portfolio_link">
+                            <a href="#"><ion-icon name="add-outline"></ion-icon></a>
+                            <a href="https://sarysheleweet.github.io/Chess_blog_page/" target="_blank"><ion-icon name="link-outline"></ion-icon></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio_item filter-app">
+                    <div class="portfolio_wrap">
+                        <img src="./Images/Portfolio.png" alt="Portfolio project screenshot" class="img-fluid">
+                        <div class="portfolio_info">
+                        <h4>Web 3</h4>
+                        <p>Web</p>
+                            <div class="portfolio_link">
+                            <a href="#"><ion-icon name="add-outline"></ion-icon></a>
+                            <a href="#"><ion-icon name="link-outline"></ion-icon></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+        
+        <!-- Contact Section -->
+        <!-- <form action="https://formspree.io/f/{form_id}" method="post">
+            <label for="email">Your Email</label>
+            <input name="Email" id="email" type="email">
+            <button type="submit">Submit</button>
+          </form> -->
+        <section class="contact section" id="contact">
+            <h2 class="section_title">Contactez Moi</h2>
+
+            <div class="contact_container container">
+                <div class="contact_content">
+                    <div class="inputs">
+                        <input type="text" placeholder="Name" class="input">
+                        <input type="email" placeholder="Email" class="input">
+                    </div>
+                    <input type="password" placeholder="Password" class="input">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Message" class="input"></textarea>
+                    <a href="#" class="btn">Envoyer un message
+                        <ion-icon name="chevron-forward-outline"></ion-icon>
+                    </a>
+                </div>
+            </div>
+
+
+            <footer>
+                <div class="footer_bg">
+                    <div class="footer_container container">
+                        <div class="main_footer">
+                            <div class="footer_social">
+                                <div class="social_links">
+                                <a href="https://www.linkedin.com/in/sary-shleweet-b2941790/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon>
+                                </a>
+                                <a href="https://www.instagram.com/sary_shleweet/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+                                <a href="https://github.com/SarySheleweet" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+                                </div>
+                                <h3>Coding Passion</h3>
+                                
+                            </div>
+                           <div class="footer_copy">Coding Passion. All rights reserved</div> 
+                        </div>
+                    </div>
+                </div>
+            </footer>
+    </main>
+
+    <!-- mixitup JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js" integrity="sha512-nKZDK+ztK6Ug+2B6DZx+QtgeyAmo9YThZob8O3xgjqhw2IVQdAITFasl/jqbyDwclMkLXFOZRiytnUrXk/PM6A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Typed JS -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- Ionicons Link -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <!-- Main Script -->
+    <script src="./JS/main.js"></script>
+    
+</body>
+</html>
